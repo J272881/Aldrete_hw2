@@ -16,11 +16,11 @@ h1, h2 {
     background-color: beige;
     
    }
-table, tr, caption, th, td { 
+table, caption, th, tr { 
     border: 1px solid black;
     background-color: lightgray;}
 
-table tr:hover{background-color: lightblue;}
+ tr:hover{background-color: lightblue;}
 
 a:link {color: red;text-decoration: none;}
 link {color: red;}
