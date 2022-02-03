@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+
+<head>
+  <title>Form Page</title>
+</head>
+<div class="boxed2">
+
+  <center>
+    <h4><a href="index.html">Back to Main Page</a></h4>
+
+  </center>
+</div>
+<link href="../css/styles.css" type="text/css" rel="stylesheet"></a>
+
+
+<body>
+  <div class="boxed2">
+    <center>
+      <h2>Order Form</h2>
+      <img src="../Images/logo1.PNG"" height=" 100px" width="100px">
+      <h4>Please put in your information</h4>
+      <h4>Then click submit</h4>
+      <form>
+        Firstname: <input type="text" name="name" required="required"><br>
+        Lastname: <input type="text" name="name" required="required"><br>
+        Date: <input type="date" name="dob" required="required"><br>
+        Password: <input type="password" name="pwd" required="required"><br>
+        <table>
+          <tr>
+            <td valign="top">
+              Item:<br>
+              <select name="Clothing">
+                <option value="T-Shirt">T-Shirt</option>
+                <option value="Pants">Pants</option>
+                <option value="shoes">shoes</option>
+                <option value="Hat">Hat</option>
+              </select>
+            </td>
+            <td>
+              Payment:<br>
+              <input type="radio" name="pmt" value="cash" checked>Cash<br>
+              <input type="radio" name="pmt" value="credit">Credit<br>
+              <input type="radio" name="pmt" value="debit">Debit
+            </td>
+            <td valign="top">
+              Other:<br>
+              <input type="checkbox" name="eatin" value="SpeedShiping">Speed Shipping <br>
+              <input type="checkbox" name="member" value="Car">I have a membership
+            </td>
+          </tr>
+        </table>
+        <input type="submit" value="Submit"> <input type="reset">
+    </center>
+  </div>
+  </form>
+
+</body>
+
+</html>
